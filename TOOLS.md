@@ -21,6 +21,28 @@ Skills define _how_ tools work. This file is for _your_ specifics — the stuff 
 bash ~/.openclaw/workspace/scripts/transcribe.sh /path/to/audio.ogg
 ```
 
+## Python Development
+
+- **Package Manager:** uv (required for all Python projects)
+- **Version:** 0.10.9
+- **Why:** Fast, modern, better than pip
+- **Location:** `~/.local/bin/uv`
+
+**Commands:**
+```bash
+# Create new project
+uv init project-name
+
+# Add dependencies
+uv add package-name
+
+# Run scripts in project
+uv run python script.py
+
+# Install from requirements
+uv pip install -r requirements.txt
+```
+
 ## GitHub Access
 
 - **Account:** just-quack-quack ([github.com/just-quack-quack](https://github.com/just-quack-quack))

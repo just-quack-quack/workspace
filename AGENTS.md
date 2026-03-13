@@ -22,9 +22,14 @@ Don't ask permission. Just do it.
 **When binh tasks me with a project:**
 
 1. **Initialize git repo:** `git init` in the project directory
-2. **Create meaningful commits** as I build - one commit per logical change
-3. **Build incrementally** - commit after each feature/fix, don't do one giant commit at the end
-4. **Push to GitHub** when done:
+2. **Always use uv for Python projects:**
+   - Create project: `uv init project-name`
+   - Add dependencies: `uv add package-name`
+   - Run scripts: `uv run python script.py`
+   - Install from requirements: `uv pip install -r requirements.txt`
+3. **Create meaningful commits** as I build - one commit per logical change
+4. **Build incrementally** - commit after each feature/fix, don't do one giant commit at the end
+5. **Push to GitHub** when done:
    - Create repo: `gh repo create project-name --public --source=. --remote=origin`
    - Push: `git push -u origin main` (or main/master depending on config)
 
