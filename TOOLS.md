@@ -14,7 +14,7 @@ Skills define _how_ tools work. This file is for _your_ specifics — the stuff 
 - **URL:** https://github.com/just-quack-quack/quack-dashboard
 - **Framework:** Textual (terminal UI)
 - **Location:** `~/.openclaw/workspace/quack-dashboard/`
-- **Tmux session:** `dashboard`
+- **Tmux session:** `main` (binh's desk screen)
 
 **Panels:**
 - 📊 Daily Research - arXiv robotics papers
@@ -23,14 +23,14 @@ Skills define _how_ tools work. This file is for _your_ specifics — the stuff 
 
 **Usage:**
 ```bash
-# Start dashboard
+# Start dashboard (runs in main session, shows on desk screen)
 cd ~/.openclaw/workspace/quack-dashboard && ./start.sh
 
-# Attach to dashboard
-tmux attach -t dashboard
+# Dashboard is visible on binh's desk screen
+# To interact directly: tmux attach -t main
 
-# Kill dashboard
-tmux kill-session -t dashboard
+# Stop dashboard
+tmux send-keys -t main C-c
 ```
 
 **Heartbeat Integration:**
