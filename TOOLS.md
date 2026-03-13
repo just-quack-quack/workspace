@@ -6,6 +6,44 @@ Skills define _how_ tools work. This file is for _your_ specifics — the stuff 
 
 - **Telegram** → normal chat (here)
 - **tmux session "main"** → binh's screen on his desk - can send commands/messages there
+- **tmux session "dashboard"** → quack dashboard running with textual TUI
+
+## Quack Dashboard
+
+- **Name:** quack-dashboard
+- **URL:** https://github.com/just-quack-quack/quack-dashboard
+- **Framework:** Textual (terminal UI)
+- **Location:** `~/.openclaw/workspace/quack-dashboard/`
+- **Tmux session:** `dashboard`
+
+**Panels:**
+- 📊 Daily Research - arXiv robotics papers
+- 📝 Active Tasks - current projects and work
+- 🔧 System Status - system information and health
+
+**Usage:**
+```bash
+# Start dashboard
+cd ~/.openclaw/workspace/quack-dashboard && ./start.sh
+
+# Attach to dashboard
+tmux attach -t dashboard
+
+# Kill dashboard
+tmux kill-session -t dashboard
+```
+
+**Heartbeat Integration:**
+```bash
+# Update research panel
+python3 ~/.openclaw/workspace/quack-dashboard/heartbeat_update.py update-research
+
+# Add task
+python3 ~/.openclaw/workspace/quack-dashboard/heartbeat_update.py add-task "Working on X" active
+
+# Update status
+python3 ~/.openclaw/workspace/quack-dashboard/heartbeat_update.py update-status
+```
 
 ## Audio Transcription
 

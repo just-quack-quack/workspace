@@ -13,9 +13,20 @@
   - Run: `python3 ~/.openclaw/workspace/scripts/fetch_robotics_papers.py`
   - Format papers for telegram (title, authors, 2-line summary, link)
   - Send to binh via telegram
-  - Send to tmux screen if he's watching
+  - Update quack dashboard: `python3 ~/.openclaw/workspace/quack-dashboard/heartbeat_update.py update-research`
+  - Ingest to repo: `python3 ~/.openclaw/workspace/research-ingest/ingest_papers.py`
+  - Push research-ingest to github
 
 **State tracking:**
 - Papers saved to: `~/.openclaw/workspace/papers/today_papers_YYYY-MM-DD.json`
 - Sent papers tracked: `~/.openclaw/workspace/papers/sent_papers.txt`
-- Send time tracked: `~/.openclaw/workspace/papers/last_sent_YYYY-MM-DD.txt`
+- Dashboard data: `~/.openclaw/workspace/quack-dashboard/data/`
+
+### Every Heartbeat - Dashboard Updates
+
+Always update quack dashboard during heartbeats:
+- Check if dashboard tmux session is running (`tmux has-session -t dashboard`)
+- If papers were fetched and ingested today, update research panel
+- Add any active tasks to tasks panel
+- Update system status panel
+- Dashboard refreshes automatically every 5 seconds
