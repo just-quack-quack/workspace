@@ -9,7 +9,7 @@ Skills define _how_ tools work. This file is for _your_ specifics — the stuff 
 
 ## GitHub Access
 
-- **Account:** Dposion ([github.com/Dposion](https://github.com/Dposion))
+- **Account:** just-quack-quack ([github.com/just-quack-quack](https://github.com/just-quack-quack))
 - **CLI:** gh (installed and authenticated)
 - **Permissions:** gist, read:org, repo, workflow
 - **Can:** create repos, gists, PRs, issues, manage workflows
@@ -17,7 +17,7 @@ Skills define _how_ tools work. This file is for _your_ specifics — the stuff 
 ## Research Ingest Repo
 
 - **Name:** research-ingest
-- **URL:** https://github.com/Dposion/research-ingest
+- **URL:** https://github.com/just-quack-quack/research-ingest
 - **Purpose:** Archive of all robotics papers ingested from arXiv
 - **Structure:** papers/YYYY/YYYY-MM-DD-arxivID.md
 - **Workflow:** fetch → ingest → commit → push
