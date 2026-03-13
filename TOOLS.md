@@ -66,6 +66,38 @@ bash ~/.openclaw/workspace/scripts/transcribe.sh /path/to/audio.ogg
 - **Why:** Fast, modern, better than pip
 - **Location:** `~/.local/bin/uv`
 
+## Research System
+
+- **Name:** research-system
+- **URL:** https://github.com/just-quack-quack/research-system
+- **Purpose:** Help binh publish 1 novel paper or article every month
+- **Location:** `~/.openclaw/workspace/research-system/`
+
+**Components:**
+- **research_analyzer.py** - Analyze arXiv papers and suggest directions
+- **experiment_runner.py** - Create and track experiments for ideas
+- **monthly_tracker.py** - Track progress toward monthly publication goal
+- **daily_workflow.py** - Automated daily workflow
+
+**Usage:**
+```bash
+# Run daily research workflow (after paper ingestion)
+cd ~/.openclaw/workspace/research-system
+uv run python daily_workflow.py
+
+# Check monthly progress
+uv run python monthly_tracker.py progress
+
+# Create experiment manually
+uv run python experiment_runner.py create '<idea_json>'
+```
+
+**Output:**
+- Daily research suggestions and analysis
+- Experiment directories with implementation templates
+- Monthly goal tracking (ideas, experiments, drafts)
+- Progress reports for publication goal
+
 **Commands:**
 ```bash
 # Create new project

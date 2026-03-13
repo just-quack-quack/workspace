@@ -16,6 +16,16 @@
   - Update quack dashboard: `python3 ~/.openclaw/workspace/quack-dashboard/heartbeat_update.py update-research`
   - Ingest to repo: `python3 ~/.openclaw/workspace/research-ingest/ingest_papers.py`
   - Push research-ingest to github
+  - **Run research workflow:** `cd ~/.openclaw/workspace/research-system && uv run python daily_workflow.py`
+
+**Research Workflow:**
+1. Analyze today's papers for trends and gaps
+2. Suggest novel research directions
+3. Create monthly goal if needed
+4. Add top idea to monthly goal
+5. Create experiment directory for implementation
+6. Track experiment in monthly goal
+7. Report progress to binh
 
 **State tracking:**
 - Papers saved to: `~/.openclaw/workspace/papers/today_papers_YYYY-MM-DD.json`
