@@ -7,6 +7,20 @@ Skills define _how_ tools work. This file is for _your_ specifics — the stuff 
 - **Telegram** → normal chat (here)
 - **tmux session "main"** → binh's screen on his desk - can send commands/messages there
 
+## Audio Transcription
+
+- **Tool:** whisper-ctranslate2 (faster than original whisper)
+- **Model:** tiny (fast, good accuracy)
+- **Script:** `scripts/transcribe.sh <audio_file>`
+- **Supported formats:** wav, mp3, ogg, m4a, flac
+- **Language:** English (auto-detected)
+- **Transcriptions saved to:** `~/.openclaw/workspace/transcriptions/`
+
+**Usage:**
+```bash
+bash ~/.openclaw/workspace/scripts/transcribe.sh /path/to/audio.ogg
+```
+
 ## GitHub Access
 
 - **Account:** just-quack-quack ([github.com/just-quack-quack](https://github.com/just-quack-quack))
