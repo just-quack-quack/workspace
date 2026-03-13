@@ -1,0 +1,144 @@
+🤖 Robotics Papers Update - 2026-03-14
+
+📊 15 new papers from arXiv:
+
+---
+
+📄 Paper 1:
+🔗 https://arxiv.org/abs/2603.12263v1
+👤 Songlin Wei, Hongyi Jing +13
+
+$Ψ_0$: An Open Foundation Model Towards Universal Humanoid Loco-Manipulation
+
+We introduce $Ψ_0$ (Psi-Zero), an open foundation model to address challenging humanoid loco-manipulation tasks. While existing approaches often attempt to address this fundamental problem by co-tr...
+---
+
+📄 Paper 2:
+🔗 https://arxiv.org/abs/2603.12260v1
+👤 Liang Heng, Yihe Tang +4
+
+HumDex:Humanoid Dexterous Manipulation Made Easy
+
+This paper investigates humanoid whole-body dexterous manipulation, where the efficient collection of high-quality demonstration data remains a central bottleneck. Existing teleoperation systems of...
+---
+
+📄 Paper 3:
+🔗 https://arxiv.org/abs/2603.12243v1
+👤 Amber Xie, Haozhi Qi +1
+
+HandelBot: Real-World Piano Playing via Fast Adaptation of Dexterous Robot Policies
+
+Mastering dexterous manipulation with multi-fingered hands has been a grand challenge in robotics for decades. Despite its potential, the difficulty of collecting high-quality data remains a primar...
+---
+
+📄 Paper 4:
+🔗 https://arxiv.org/abs/2603.12193v1
+👤 Mengzhen Liu, Enshen Zhou +7
+
+SaPaVe: Towards Active Perception and Manipulation in Vision-Language-Action Models for Robotics
+
+Active perception and manipulation are crucial for robots to interact with complex scenes. Existing methods struggle to unify semantic-driven active perception with robust, viewpoint-invariant exec...
+---
+
+📄 Paper 5:
+🔗 https://arxiv.org/abs/2603.12185v1
+👤 Chetan Borse, Zhixian Xie +2
+
+ComFree-Sim: A GPU-Parallelized Analytical Contact Physics Engine for Scalable Contact-Rich Robotics Simulation and Control
+
+Physics simulation for contact-rich robotics is often bottlenecked by contact resolution: mainstream engines enforce non-penetration and Coulomb friction via complementarity constraints or constrai...
+---
+
+📄 Paper 6:
+🔗 https://arxiv.org/abs/2603.12144v1
+👤 Mengfei Duan, Hao Shi +5
+
+O3N: Omnidirectional Open-Vocabulary Occupancy Prediction
+
+Understanding and reconstructing the 3D world through omnidirectional perception is an inevitable trend in the development of autonomous agents and embodied intelligence. However, existing 3D occup...
+---
+
+📄 Paper 7:
+🔗 https://arxiv.org/abs/2603.12120v1
+👤 Leo Lin, Shivansh Patel +3
+
+CRAFT: A Tendon-Driven Hand with Hybrid Hard-Soft Compliance
+
+We introduce CRAFT hand, a tendon-driven anthropomorphic hand with hybrid hard-soft compliance for contact-rich manipulation. The design is based on a simple idea: contact is not uniform across the...
+---
+
+📄 Paper 8:
+🔗 https://arxiv.org/abs/2603.12099v1
+👤 Haoying Zhou, Hao Yang +6
+
+Towards Dynamic Model Identification and Gravity Compensation for the dVRK-Si Patient Side Manipulator
+
+The da Vinci Research Kit (dVRK) is widely used for research in robot-assisted surgery, but most modeling and control methods target the first-generation dVRK Classic. The recently introduced dVRK-...
+---
+
+📄 Paper 9:
+🔗 https://arxiv.org/abs/2603.12083v1
+👤 Xiaolong Qian, Qi Jiang +6
+
+Towards Universal Computational Aberration Correction in Photographic Cameras: A Comprehensive Benchmark Analysis
+
+Prevalent Computational Aberration Correction (CAC) methods are typically tailored to specific optical systems, leading to poor generalization and labor-intensive re-training for new lenses. Develo...
+---
+
+📄 Paper 10:
+🔗 https://arxiv.org/abs/2603.12075v1
+👤 Nivand Khosravi, Niusha Khosravi +2
+
+Decentralized Cooperative Localization for Multi-Robot Systems with Asynchronous Sensor Fusion
+
+Decentralized cooperative localization (DCL) is a promising approach for nonholonomic mobile robots operating in GPS-denied environments with limited communication infrastructure. This paper presen...
+---
+
+📄 Paper 11:
+🔗 https://arxiv.org/abs/2603.12059v1
+👤 Julius Wanner, Hoang-Vu Phan +2
+
+Flight through Narrow Gaps with Morphing-Wing Drones
+
+The size of a narrow gap traversable by a fixed-wing drone is limited by its wingspan. Inspired by birds, here, we enable the traversal of a gap of sub-wingspan width and height using a morphing-wi...
+---
+
+📄 Paper 12:
+🔗 https://arxiv.org/abs/2603.12020v1
+👤 Alaaeddine Chaarani, Narcis Palomeras +1
+
+Sim-to-reality adaptation for Deep Reinforcement Learning applied to an underwater docking application
+
+Deep Reinforcement Learning (DRL) offers a robust alternative to traditional control methods for autonomous underwater docking, particularly in adapting to unpredictable environmental conditions. H...
+---
+
+📄 Paper 13:
+🔗 https://arxiv.org/abs/2603.11980v1
+👤 Kai Li, Shiyu Zhao
+
+Learning Visuomotor Policy for Multi-Robot Laser Tag Game
+
+In this paper, we study multi robot laser tag, a simplified yet practical shooting-game-style task. Classic modular approaches on these tasks face challenges such as limited observability and relia...
+---
+
+📄 Paper 14:
+🔗 https://arxiv.org/abs/2603.11963v1
+👤 Mohamed Ounally, Cyrille Pierre +1
+
+Energy Prediction on Sloping Ground for Quadruped Robots
+
+Energy management is a fundamental challenge for legged robots in outdoor environments. Endurance directly constrains mission success, while efficient resource use reduces ecological impact. This p...
+---
+
+📄 Paper 15:
+🔗 https://arxiv.org/abs/2603.11811v1
+👤 Yongzhong Wang, Keyu Zhu +4
+
+RADAR: Closed-Loop Robotic Data Generation via Semantic Planning and Autonomous Causal Environment Reset
+
+The acquisition of large-scale physical interaction data, a critical prerequisite for modern robot learning, is severely bottlenecked by the prohibitive cost and scalability limits of human-in-the-...
+---
+
+Full list: https://arxiv.org/list/cs.RO/recent
+
+🌙 ~ little nix
