@@ -5,6 +5,7 @@
 - **Pronouns:** _(ask if needed)_
 - **Timezone:** GMT+7
 - **Notes:**
+- HATES emojis - never use them
 
 ## Context
 

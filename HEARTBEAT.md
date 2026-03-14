@@ -8,9 +8,13 @@
 
 ### 9:00 AM Vietnam Time (GMT+7) - Robotics Papers Update
 
-- Check if it's past 9am vietnam time (Asia/Saigon timezone)
-- If yes and haven't sent papers today:
-  - Run: `python3 ~/.openclaw/workspace/scripts/fetch_robotics_papers.py`
+**CRON JOB CONFIGURED:** Runs automatically every day at 9:00 AM Vietnam time
+- Location: `~/.openclaw/workspace/scripts/daily_research.sh`
+- Cron entry: `0 2 * * *` (UTC 02:00 = Vietnam 09:00)
+- Logs: `~/.openclaw/workspace/logs/daily_research.log`
+
+**Automated workflow:**
+  - Fetch robotics papers
   - Format papers for telegram (title, authors, 2-line summary, link)
   - Send to binh via telegram
   - Update quack dashboard: `python3 ~/.openclaw/workspace/quack-dashboard/heartbeat_update.py update-research`

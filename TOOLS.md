@@ -129,6 +129,25 @@ uv pip install -r requirements.txt
 - **Workflow:** fetch → ingest → commit → push
 - **Script:** `research-ingest/ingest_papers.py`
 
+## Cron Jobs
+
+**Daily Research Workflow (9:00 AM Vietnam Time):**
+- Script: `~/.openclaw/workspace/scripts/daily_research.sh`
+- Cron: `0 2 * * *` (UTC 02:00 = Vietnam 09:00)
+- Logs: `~/.openclaw/workspace/logs/daily_research.log`
+- Crontab file: `~/.openclaw/workspace/scripts/crontab`
+
+**What it does:**
+- Fetch robotics papers from arXiv
+- Update quack dashboard research panel
+- Ingest papers to research-ingest repo
+- Push to GitHub
+- Run research workflow (analyze, suggest ideas, create experiments)
+
+**To verify cron job:** `crontab -l`
+
+**To manually trigger:** `~/.openclaw/workspace/scripts/daily_research.sh`
+
 ## What Goes Here
 
 Things like:

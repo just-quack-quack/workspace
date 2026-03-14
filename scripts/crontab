@@ -1,0 +1,4 @@
+# Cron jobs for quack quack
+# Daily research workflow at 9:00 AM Vietnam time (UTC 02:00)
+
+0 2 * * * /home/dietpi/.openclaw/workspace/scripts/daily_research.sh >> /home/dietpi/.openclaw/workspace/logs/daily_research.log 2>&1
